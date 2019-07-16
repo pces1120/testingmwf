@@ -19,6 +19,7 @@
     </style>
   </head>
   <body>
+        <script>window.performance && performance.mark && performance.mark("MainAreaBegin")</script>
         <main data-grid="container" id="mainContent" class="context-control x-offset-content">
     <div data-grid="col-12" class="context-control-appearance">
         <section>
@@ -203,7 +204,8 @@
                             <figcaption class="c-caption-2">A carousel showing a series of heroes with varying themes</figcaption></section>
                                             </div>
 </main>
-    
+<script>window.performance && performance.mark && performance.mark("MainAreaEnd")</script>
+<script>window.performance && performance.measure && performance.measure("MainAreaDuration", "MainAreaBegin", "MainAreaEnd");</script>
   </body>
   <script async="async" src="https://assets.onestore.ms/cdnfiles/external/mwf/short/v1/latest/scripts/mwf-auto-init-main.var.min.js"></script>
   <script
