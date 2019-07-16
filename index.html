@@ -22,7 +22,7 @@
         <main data-grid="container" id="mainContent" class="context-control x-offset-content">
     <div data-grid="col-12" class="context-control-appearance">
         <section>
-        <div  class="c-carousel f-multi-slide f-scrollable-previous f-scrollable-next theme-light this-one" role="region" aria-label="New Products" style="touch-action: auto!important;-webkit-user-drag: auto!important;">
+        <div id="thisOne" class="c-carousel f-multi-slide f-scrollable-previous f-scrollable-next theme-light this-one" role="region" aria-label="New Products" style="touch-action: auto!important;-webkit-user-drag: auto!important;">
             <div class="c-sequence-indicator" aria-hidden="false">
                 <button role="tab" aria-selected="true" aria-label="View slide one" aria-controls="hero-slide-one" title="Slide one" tabindex="0" class="f-active"></button>
                 <button role="tab" aria-selected="false" aria-label="View slide two" aria-controls="hero-slide-two" title="Slide two" tabindex="-1"></button>
@@ -206,4 +206,11 @@
     
   </body>
   <script async="async" src="https://assets.onestore.ms/cdnfiles/external/mwf/short/v1/latest/scripts/mwf-auto-init-main.var.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script>
+  $('#thisOne').css('touch-action', 'auto!important')
+  </script>
 </html>
