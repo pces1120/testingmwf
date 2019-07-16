@@ -14,673 +14,190 @@
     <title template="title_page"></title>
   </head>
   <body>
-    <div class="c-carousel f-multi-slide f-auto-play" role="region" aria-label="Autoplay carousel" data-js-interval="6000">
-        <div class="c-group">
-            <div class="c-sequence-indicator" role="tablist">
-                <button role="tab" aria-selected="true" aria-label="View slide one" aria-controls="hero-slide-one" title="Slide one"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide two" aria-controls="hero-slide-two" title="Slide two"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide three" aria-controls="hero-slide-three" title="Slide three"></button>
+    <div data-grid="col-12" class="context-control-appearance">
+        <section>
+        <div class="c-carousel f-multi-slide f-scrollable-previous f-scrollable-next theme-light" role="region" aria-label="New Products" style="touch-action: pan-y;">
+            <div class="c-sequence-indicator" aria-hidden="false">
+                <button role="tab" aria-selected="true" aria-label="View slide one" aria-controls="hero-slide-one" title="Slide one" tabindex="0" class="f-active"></button>
+                <button role="tab" aria-selected="false" aria-label="View slide two" aria-controls="hero-slide-two" title="Slide two" tabindex="-1"></button>
+                <button role="tab" aria-selected="false" aria-label="View slide three" aria-controls="hero-slide-three" title="Slide three" tabindex="-1"></button>
             </div>
-            <button class="c-action-toggle c-glyph glyph-play f-toggle" data-toggled-label="Pause" data-toggled-glyph="glyph-pause" aria-label="Play" aria-pressed="false" data-f-describedby="glyphOnlyPause"></button>
-            <span id="glyphOnlyPause" class="c-tooltip" role="tooltip" aria-hidden="true">Pause</span>
-        </div>
-        <button class="c-flipper f-previous" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <button class="c-flipper f-next" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <div itemscope="" itemtype="https://schema.org/ItemList">
-            <ul>
-                <li id="hero-slide-one" data-f-theme="dark" class="f-active" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-device theme-dark" itemscope="" itemtype="https://schema.org/Product">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
+            <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1" title="View previous"></button>
+            <button class="c-flipper f-next" aria-hidden="true" tabindex="-1" title="View next"></button>
+            <div>
+                <ul style="margin-bottom:0;">
+                    <li id="hero-slide-one-1" data-f-theme="light" class="f-active">
+                        <section class="c-hero context-device f-medium f-x-left f-y-center theme-light" data-js-href="https://www.microsoft.com/en-us/mwf/1.57.5/components/carousel#">
+                            <picture>
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp5.jpg" media="(min-width:1400px)">
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp4.jpg" media="(min-width:1084px)">
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp3.jpg" media="(min-width:768px)">
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp2.jpg" media="(min-width:540px)">
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp2.jpg" media="(min-width:0)">
+                                <img srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp4.jpg" src="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp4.jpg" alt="Surface Pro 4">
+                            </picture>
                             <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-subheading">Subheading</p>
-                                <div class="c-price" itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
-                                    <meta itemprop="priceCurrency" content="USD">
-                                    <span>$</span>
-                                    <span itemprop="price">1,499</span>
-                                    <link itemprop="availability" href="https://schema.org/InStock">
-                                </div>
                                 <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
+                                    <h1 class="c-heading">Surface Book</h1>
+                                    <p class="c-subheading">The ultimate laptop</p>
+                                    <div class="c-group">
+                                        <a href="#" class="c-call-to-action c-glyph"><span>SHOP NOW</span></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-two" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-game theme-dark" itemscope="" itemtype="https://schema.org/VideoGame">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
+                        </section>
+                    </li>
+                    <li id="hero-slide-two-2" data-f-theme="dark">
+                        <section class="c-hero context-game f-medium f-x-left f-y-center theme-dark" data-js-href="https://www.microsoft.com/en-us/mwf/1.57.5/components/carousel#">
+                            <picture>
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp5.jpg" media="(min-width:1084px)">
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp4.jpg" media="(min-width:768px)">
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp3.jpg" media="(min-width:540px)">
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp2.jpg" media="(min-width:0)">
+                                <img srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp4.jpg" src="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp4.jpg" alt="Martian poster">
+                            </picture>
                             <div>
-                                <h1 class="c-product-title">
-                                    <cite>Product-title</cite>
-                                </h1>
-                                <p class="c-product-subtitle">Product-subtitle</p>
-                                <div class="c-rating" data-value="3" data-max="5" itemscope="" itemtype="https://schema.org/AggregateRating">
-                                    <p class="x-screen-reader" id="sr_">Community rating:
-                                        <span itemprop="ratingValue">3</span>out of
-                                        <span itemprop="bestRating">5</span>
-                                    </p>
-                                    <div aria-hidden="true"></div>
-                                </div>
                                 <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
+                                    <h1 class="c-product-title"><cite>Tom Clancy's The Division</cite></h1>
+                                    <p class="c-product-subtitle">Take back New York in Tom Clancy's The Division open beta. Early access available only on Xbox One.</p>
+                                    <div class="c-rating" data-value="3.2" data-max="5" itemscope="" itemtype="https://schema.org/AggregateRating">
+                                        <p class="x-screen-reader">User rating:
+                                            <span itemprop="ratingValue">3.5</span>/
+                                            <span itemprop="bestRating">5</span>
+                                        </p>
+                                        <div></div>
+                                    </div>
+                                    <div class="c-group">
+                                        <a href="#" class="c-call-to-action c-glyph">PRE-ORDER TODAY</a>
+                                    </div>
+                                </div>
+                            </div>                    
+                        </section>
+                    </li>
+                    <li id="hero-slide-three-3" data-f-theme="dark">
+                        <section class="c-hero context-article f-medium f-x-left f-y-center theme-dark" data-js-href="https://www.microsoft.com/en-us/mwf/1.57.5/components/carousel#">
+                            <picture>
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp5.jpg" media="(min-width:1400px)">
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp4.jpg" media="(min-width:1084px)">
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp3.jpg" media="(min-width:768px)">
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp2.jpg" media="(min-width:540px)">
+                                <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp2.jpg" media="(min-width:0)">
+                                <img srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp4.jpg" src="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp4.jpg" alt="Martian poster">
+                            </picture>
+                            <div>
+                                <div>
+                                    <h1 class="c-heading">‘Outsider’ Presidential Candidates Prove Competitive in Fund-Raising</h1>
+                                    <p class="c-paragraph">Rhetorical excess was good for business, but Carson now wants to be seen as more than a novelty candidate. He has come to learn that such extreme analogies, while true to his views, aren’t especially presidential. They alienate more moderate
+                                        voters and, perhaps even more damaging, reinforce the impression that he is not “serious” — that he is another... </p>
+                                    <div class="c-logo">
+                                        <img class="c-image" alt="New York Times logo" src="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/logo-nytimes.png">
+                                        <span>NY Times</span>
+                                    </div>
+                                    <div class="c-group">
+                                        <a href="#" class="c-call-to-action c-glyph m-t-sm"><span>READ MORE</span></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-three" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-article theme-dark" itemscope="" itemtype="https://schema.org/Article">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-paragraph">Paragraph fusce vel feugiat libero. Quisque eu est in dui facilisis faucibus. Donec tincidunt eget felis ac semper. In egestas nunc id tellus pellentesque, vel ullamcorper ex dictum. Vivamus a tempor arcu, et laoreet sem. Mauris
-                                    ac aliquam dui. Curabitur bibendum, nisi sed gravida gravida, sapien nisl sollicitudin sem, sed blandit quam arcu eleifend dolor. Maecenas tristique nibh ullamcorper ante pellentesque faucibus. Cras non nulla vitae urna
-                                    porttitor sagittis. Cras vitae pretium dolor.</p>
-                                <div class="c-logo">
-                                    <img itemprop="logo" class="c-image" src="https://placehold.it/350x40" alt="Placeholder with grey background" itemscope="" itemtype="https://schema.org/ImageObject">
-                                    <span>Logo</span>
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-            </ul>
-        </div>
-    </div>
-    
-    <div class="c-carousel f-multi-slide f-auto-play" role="region" aria-label="Autoplay carousel" data-js-interval="6000">
-        <div class="c-group">
-            <div class="c-sequence-indicator" role="tablist">
-                <button role="tab" aria-selected="true" aria-label="View slide one" aria-controls="hero-slide-one" title="Slide one"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide two" aria-controls="hero-slide-two" title="Slide two"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide three" aria-controls="hero-slide-three" title="Slide three"></button>
+                        </section>
+                    </li>
+                </ul>
             </div>
-            <button class="c-action-toggle c-glyph glyph-play f-toggle" data-toggled-label="Pause" data-toggled-glyph="glyph-pause" aria-label="Play" aria-pressed="false" data-f-describedby="glyphOnlyPause"></button>
-            <span id="glyphOnlyPause" class="c-tooltip" role="tooltip" aria-hidden="true">Pause</span>
         </div>
-        <button class="c-flipper f-previous" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <button class="c-flipper f-next" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <div itemscope="" itemtype="https://schema.org/ItemList">
-            <ul>
-                <li id="hero-slide-one" data-f-theme="dark" class="f-active" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-device theme-dark" itemscope="" itemtype="https://schema.org/Product">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-subheading">Subheading</p>
-                                <div class="c-price" itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
-                                    <meta itemprop="priceCurrency" content="USD">
-                                    <span>$</span>
-                                    <span itemprop="price">1,499</span>
-                                    <link itemprop="availability" href="https://schema.org/InStock">
+        </section>
+                        </div>
+                        <div data-grid="col-12" class="context-control-appearance">
+                            <section>
+                            <div class="c-carousel f-multi-slide f-scrollable-previous f-scrollable-next theme-light" role="region" aria-label="New Products" style="touch-action: pan-y;">
+                                <div class="c-sequence-indicator" aria-hidden="false">
+                                    <button role="tab" aria-selected="true" aria-label="View slide one" aria-controls="hero-slide-one" title="Slide one" tabindex="0" class="f-active"></button>
+                                    <button role="tab" aria-selected="false" aria-label="View slide two" aria-controls="hero-slide-two" title="Slide two" tabindex="-1"></button>
+                                    <button role="tab" aria-selected="false" aria-label="View slide three" aria-controls="hero-slide-three" title="Slide three" tabindex="-1"></button>
                                 </div>
+                                <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1" title="View previous"></button>
+                                <button class="c-flipper f-next" aria-hidden="true" tabindex="-1" title="View next"></button>
                                 <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
+                                    <ul style="margin-bottom:0;">
+                                        <li id="hero-slide-one-1" data-f-theme="light" class="f-active">
+                                            <section class="c-hero context-device f-medium f-x-left f-y-center theme-light" data-js-href="https://www.microsoft.com/en-us/mwf/1.57.5/components/carousel#">
+                                                <picture>
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp5.jpg" media="(min-width:1400px)">
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp4.jpg" media="(min-width:1084px)">
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp3.jpg" media="(min-width:768px)">
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp2.jpg" media="(min-width:540px)">
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp2.jpg" media="(min-width:0)">
+                                                    <img srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp4.jpg" src="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/surface-hero-background-vp4.jpg" alt="Surface Pro 4">
+                                                </picture>
+                                                <div>
+                                                    <div>
+                                                        <h1 class="c-heading">Surface Book</h1>
+                                                        <p class="c-subheading">The ultimate laptop</p>
+                                                        <div class="c-group">
+                                                            <a href="#" class="c-call-to-action c-glyph"><span>SHOP NOW</span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </li>
+                                        <li id="hero-slide-two-2" data-f-theme="dark">
+                                            <section class="c-hero context-game f-medium f-x-left f-y-center theme-dark" data-js-href="https://www.microsoft.com/en-us/mwf/1.57.5/components/carousel#">
+                                                <picture>
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp5.jpg" media="(min-width:1084px)">
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp4.jpg" media="(min-width:768px)">
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp3.jpg" media="(min-width:540px)">
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp2.jpg" media="(min-width:0)">
+                                                    <img srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp4.jpg" src="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/division-hero-background-vp4.jpg" alt="Martian poster">
+                                                </picture>
+                                                <div>
+                                                    <div>
+                                                        <h1 class="c-product-title"><cite>Tom Clancy's The Division</cite></h1>
+                                                        <p class="c-product-subtitle">Take back New York in Tom Clancy's The Division open beta. Early access available only on Xbox One.</p>
+                                                        <div class="c-rating" data-value="3.2" data-max="5" itemscope="" itemtype="https://schema.org/AggregateRating">
+                                                            <p class="x-screen-reader">User rating:
+                                                                <span itemprop="ratingValue">3.5</span>/
+                                                                <span itemprop="bestRating">5</span>
+                                                            </p>
+                                                            <div></div>
+                                                        </div>
+                                                        <div class="c-group">
+                                                            <a href="#" class="c-call-to-action c-glyph">PRE-ORDER TODAY</a>
+                                                        </div>
+                                                    </div>
+                                                </div>                    
+                                            </section>
+                                        </li>
+                                        <li id="hero-slide-three-3" data-f-theme="dark">
+                                            <section class="c-hero context-article f-medium f-x-left f-y-center theme-dark" data-js-href="https://www.microsoft.com/en-us/mwf/1.57.5/components/carousel#">
+                                                <picture>
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp5.jpg" media="(min-width:1400px)">
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp4.jpg" media="(min-width:1084px)">
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp3.jpg" media="(min-width:768px)">
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp2.jpg" media="(min-width:540px)">
+                                                    <source srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp2.jpg" media="(min-width:0)">
+                                                    <img srcset="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp4.jpg" src="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/content-hero-background-vp4.jpg" alt="Martian poster">
+                                                </picture>
+                                                <div>
+                                                    <div>
+                                                        <h1 class="c-heading">‘Outsider’ Presidential Candidates Prove Competitive in Fund-Raising</h1>
+                                                        <p class="c-paragraph">Rhetorical excess was good for business, but Carson now wants to be seen as more than a novelty candidate. He has come to learn that such extreme analogies, while true to his views, aren’t especially presidential. They alienate more moderate
+                                                            voters and, perhaps even more damaging, reinforce the impression that he is not “serious” — that he is another... </p>
+                                                        <div class="c-logo">
+                                                            <img class="c-image" alt="New York Times logo" src="//statics-mwf-eus-ms-com.akamaized.net/_h/mwfhash2/mwf.app/images/components/logo-nytimes.png">
+                                                            <span>NY Times</span>
+                                                        </div>
+                                                        <div class="c-group">
+                                                            <a href="#" class="c-call-to-action c-glyph m-t-sm"><span>READ MORE</span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-two" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-game theme-dark" itemscope="" itemtype="https://schema.org/VideoGame">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-product-title">
-                                    <cite>Product-title</cite>
-                                </h1>
-                                <p class="c-product-subtitle">Product-subtitle</p>
-                                <div class="c-rating" data-value="3" data-max="5" itemscope="" itemtype="https://schema.org/AggregateRating">
-                                    <p class="x-screen-reader" id="sr_">Community rating:
-                                        <span itemprop="ratingValue">3</span>out of
-                                        <span itemprop="bestRating">5</span>
-                                    </p>
-                                    <div aria-hidden="true"></div>
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-three" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-article theme-dark" itemscope="" itemtype="https://schema.org/Article">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-paragraph">Paragraph fusce vel feugiat libero. Quisque eu est in dui facilisis faucibus. Donec tincidunt eget felis ac semper. In egestas nunc id tellus pellentesque, vel ullamcorper ex dictum. Vivamus a tempor arcu, et laoreet sem. Mauris
-                                    ac aliquam dui. Curabitur bibendum, nisi sed gravida gravida, sapien nisl sollicitudin sem, sed blandit quam arcu eleifend dolor. Maecenas tristique nibh ullamcorper ante pellentesque faucibus. Cras non nulla vitae urna
-                                    porttitor sagittis. Cras vitae pretium dolor.</p>
-                                <div class="c-logo">
-                                    <img itemprop="logo" class="c-image" src="https://placehold.it/350x40" alt="Placeholder with grey background" itemscope="" itemtype="https://schema.org/ImageObject">
-                                    <span>Logo</span>
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-            </ul>
-        </div>
-    </div>
-    
-    <div class="c-carousel f-multi-slide f-auto-play" role="region" aria-label="Autoplay carousel" data-js-interval="6000">
-        <div class="c-group">
-            <div class="c-sequence-indicator" role="tablist">
-                <button role="tab" aria-selected="true" aria-label="View slide one" aria-controls="hero-slide-one" title="Slide one"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide two" aria-controls="hero-slide-two" title="Slide two"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide three" aria-controls="hero-slide-three" title="Slide three"></button>
-            </div>
-            <button class="c-action-toggle c-glyph glyph-play f-toggle" data-toggled-label="Pause" data-toggled-glyph="glyph-pause" aria-label="Play" aria-pressed="false" data-f-describedby="glyphOnlyPause"></button>
-            <span id="glyphOnlyPause" class="c-tooltip" role="tooltip" aria-hidden="true">Pause</span>
-        </div>
-        <button class="c-flipper f-previous" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <button class="c-flipper f-next" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <div itemscope="" itemtype="https://schema.org/ItemList">
-            <ul>
-                <li id="hero-slide-one" data-f-theme="dark" class="f-active" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-device theme-dark" itemscope="" itemtype="https://schema.org/Product">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-subheading">Subheading</p>
-                                <div class="c-price" itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
-                                    <meta itemprop="priceCurrency" content="USD">
-                                    <span>$</span>
-                                    <span itemprop="price">1,499</span>
-                                    <link itemprop="availability" href="https://schema.org/InStock">
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-two" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-game theme-dark" itemscope="" itemtype="https://schema.org/VideoGame">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-product-title">
-                                    <cite>Product-title</cite>
-                                </h1>
-                                <p class="c-product-subtitle">Product-subtitle</p>
-                                <div class="c-rating" data-value="3" data-max="5" itemscope="" itemtype="https://schema.org/AggregateRating">
-                                    <p class="x-screen-reader" id="sr_">Community rating:
-                                        <span itemprop="ratingValue">3</span>out of
-                                        <span itemprop="bestRating">5</span>
-                                    </p>
-                                    <div aria-hidden="true"></div>
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-three" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-article theme-dark" itemscope="" itemtype="https://schema.org/Article">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-paragraph">Paragraph fusce vel feugiat libero. Quisque eu est in dui facilisis faucibus. Donec tincidunt eget felis ac semper. In egestas nunc id tellus pellentesque, vel ullamcorper ex dictum. Vivamus a tempor arcu, et laoreet sem. Mauris
-                                    ac aliquam dui. Curabitur bibendum, nisi sed gravida gravida, sapien nisl sollicitudin sem, sed blandit quam arcu eleifend dolor. Maecenas tristique nibh ullamcorper ante pellentesque faucibus. Cras non nulla vitae urna
-                                    porttitor sagittis. Cras vitae pretium dolor.</p>
-                                <div class="c-logo">
-                                    <img itemprop="logo" class="c-image" src="https://placehold.it/350x40" alt="Placeholder with grey background" itemscope="" itemtype="https://schema.org/ImageObject">
-                                    <span>Logo</span>
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-            </ul>
-        </div>
-    </div>
-    
-    <div class="c-carousel f-multi-slide f-auto-play" role="region" aria-label="Autoplay carousel" data-js-interval="6000">
-        <div class="c-group">
-            <div class="c-sequence-indicator" role="tablist">
-                <button role="tab" aria-selected="true" aria-label="View slide one" aria-controls="hero-slide-one" title="Slide one"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide two" aria-controls="hero-slide-two" title="Slide two"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide three" aria-controls="hero-slide-three" title="Slide three"></button>
-            </div>
-            <button class="c-action-toggle c-glyph glyph-play f-toggle" data-toggled-label="Pause" data-toggled-glyph="glyph-pause" aria-label="Play" aria-pressed="false" data-f-describedby="glyphOnlyPause"></button>
-            <span id="glyphOnlyPause" class="c-tooltip" role="tooltip" aria-hidden="true">Pause</span>
-        </div>
-        <button class="c-flipper f-previous" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <button class="c-flipper f-next" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <div itemscope="" itemtype="https://schema.org/ItemList">
-            <ul>
-                <li id="hero-slide-one" data-f-theme="dark" class="f-active" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-device theme-dark" itemscope="" itemtype="https://schema.org/Product">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-subheading">Subheading</p>
-                                <div class="c-price" itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
-                                    <meta itemprop="priceCurrency" content="USD">
-                                    <span>$</span>
-                                    <span itemprop="price">1,499</span>
-                                    <link itemprop="availability" href="https://schema.org/InStock">
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-two" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-game theme-dark" itemscope="" itemtype="https://schema.org/VideoGame">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-product-title">
-                                    <cite>Product-title</cite>
-                                </h1>
-                                <p class="c-product-subtitle">Product-subtitle</p>
-                                <div class="c-rating" data-value="3" data-max="5" itemscope="" itemtype="https://schema.org/AggregateRating">
-                                    <p class="x-screen-reader" id="sr_">Community rating:
-                                        <span itemprop="ratingValue">3</span>out of
-                                        <span itemprop="bestRating">5</span>
-                                    </p>
-                                    <div aria-hidden="true"></div>
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-three" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-article theme-dark" itemscope="" itemtype="https://schema.org/Article">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-paragraph">Paragraph fusce vel feugiat libero. Quisque eu est in dui facilisis faucibus. Donec tincidunt eget felis ac semper. In egestas nunc id tellus pellentesque, vel ullamcorper ex dictum. Vivamus a tempor arcu, et laoreet sem. Mauris
-                                    ac aliquam dui. Curabitur bibendum, nisi sed gravida gravida, sapien nisl sollicitudin sem, sed blandit quam arcu eleifend dolor. Maecenas tristique nibh ullamcorper ante pellentesque faucibus. Cras non nulla vitae urna
-                                    porttitor sagittis. Cras vitae pretium dolor.</p>
-                                <div class="c-logo">
-                                    <img itemprop="logo" class="c-image" src="https://placehold.it/350x40" alt="Placeholder with grey background" itemscope="" itemtype="https://schema.org/ImageObject">
-                                    <span>Logo</span>
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-            </ul>
-        </div>
-    </div>
-    
-    <div class="c-carousel f-multi-slide f-auto-play" role="region" aria-label="Autoplay carousel" data-js-interval="6000">
-        <div class="c-group">
-            <div class="c-sequence-indicator" role="tablist">
-                <button role="tab" aria-selected="true" aria-label="View slide one" aria-controls="hero-slide-one" title="Slide one"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide two" aria-controls="hero-slide-two" title="Slide two"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide three" aria-controls="hero-slide-three" title="Slide three"></button>
-            </div>
-            <button class="c-action-toggle c-glyph glyph-play f-toggle" data-toggled-label="Pause" data-toggled-glyph="glyph-pause" aria-label="Play" aria-pressed="false" data-f-describedby="glyphOnlyPause"></button>
-            <span id="glyphOnlyPause" class="c-tooltip" role="tooltip" aria-hidden="true">Pause</span>
-        </div>
-        <button class="c-flipper f-previous" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <button class="c-flipper f-next" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <div itemscope="" itemtype="https://schema.org/ItemList">
-            <ul>
-                <li id="hero-slide-one" data-f-theme="dark" class="f-active" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-device theme-dark" itemscope="" itemtype="https://schema.org/Product">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-subheading">Subheading</p>
-                                <div class="c-price" itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
-                                    <meta itemprop="priceCurrency" content="USD">
-                                    <span>$</span>
-                                    <span itemprop="price">1,499</span>
-                                    <link itemprop="availability" href="https://schema.org/InStock">
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-two" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-game theme-dark" itemscope="" itemtype="https://schema.org/VideoGame">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-product-title">
-                                    <cite>Product-title</cite>
-                                </h1>
-                                <p class="c-product-subtitle">Product-subtitle</p>
-                                <div class="c-rating" data-value="3" data-max="5" itemscope="" itemtype="https://schema.org/AggregateRating">
-                                    <p class="x-screen-reader" id="sr_">Community rating:
-                                        <span itemprop="ratingValue">3</span>out of
-                                        <span itemprop="bestRating">5</span>
-                                    </p>
-                                    <div aria-hidden="true"></div>
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-three" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-article theme-dark" itemscope="" itemtype="https://schema.org/Article">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-paragraph">Paragraph fusce vel feugiat libero. Quisque eu est in dui facilisis faucibus. Donec tincidunt eget felis ac semper. In egestas nunc id tellus pellentesque, vel ullamcorper ex dictum. Vivamus a tempor arcu, et laoreet sem. Mauris
-                                    ac aliquam dui. Curabitur bibendum, nisi sed gravida gravida, sapien nisl sollicitudin sem, sed blandit quam arcu eleifend dolor. Maecenas tristique nibh ullamcorper ante pellentesque faucibus. Cras non nulla vitae urna
-                                    porttitor sagittis. Cras vitae pretium dolor.</p>
-                                <div class="c-logo">
-                                    <img itemprop="logo" class="c-image" src="https://placehold.it/350x40" alt="Placeholder with grey background" itemscope="" itemtype="https://schema.org/ImageObject">
-                                    <span>Logo</span>
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-            </ul>
-        </div>
-    </div>
-    
-    <div class="c-carousel f-multi-slide f-auto-play" role="region" aria-label="Autoplay carousel" data-js-interval="6000">
-        <div class="c-group">
-            <div class="c-sequence-indicator" role="tablist">
-                <button role="tab" aria-selected="true" aria-label="View slide one" aria-controls="hero-slide-one" title="Slide one"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide two" aria-controls="hero-slide-two" title="Slide two"></button>
-                <button role="tab" aria-selected="false" aria-label="View slide three" aria-controls="hero-slide-three" title="Slide three"></button>
-            </div>
-            <button class="c-action-toggle c-glyph glyph-play f-toggle" data-toggled-label="Pause" data-toggled-glyph="glyph-pause" aria-label="Play" aria-pressed="false" data-f-describedby="glyphOnlyPause"></button>
-            <span id="glyphOnlyPause" class="c-tooltip" role="tooltip" aria-hidden="true">Pause</span>
-        </div>
-        <button class="c-flipper f-previous" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <button class="c-flipper f-next" role="presentation" aria-hidden="true" tabindex="-1"></button>
-        <div itemscope="" itemtype="https://schema.org/ItemList">
-            <ul>
-                <li id="hero-slide-one" data-f-theme="dark" class="f-active" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-device theme-dark" itemscope="" itemtype="https://schema.org/Product">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-subheading">Subheading</p>
-                                <div class="c-price" itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
-                                    <meta itemprop="priceCurrency" content="USD">
-                                    <span>$</span>
-                                    <span itemprop="price">1,499</span>
-                                    <link itemprop="availability" href="https://schema.org/InStock">
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-two" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-game theme-dark" itemscope="" itemtype="https://schema.org/VideoGame">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-product-title">
-                                    <cite>Product-title</cite>
-                                </h1>
-                                <p class="c-product-subtitle">Product-subtitle</p>
-                                <div class="c-rating" data-value="3" data-max="5" itemscope="" itemtype="https://schema.org/AggregateRating">
-                                    <p class="x-screen-reader" id="sr_">Community rating:
-                                        <span itemprop="ratingValue">3</span>out of
-                                        <span itemprop="bestRating">5</span>
-                                    </p>
-                                    <div aria-hidden="true"></div>
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-                <li id="hero-slide-three" data-f-theme="dark" role="tabpanel">
-                    <section class="m-hero-item f-x-left f-y-center context-article theme-dark" itemscope="" itemtype="https://schema.org/Article">
-                        <picture>
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1779px)">
-                            <source srcset="https://placehold.it/1600x600/585858/171717" media="(min-width: 1400px)">
-                            <source srcset="https://placehold.it/1259x472/585858/171717" media="(min-width: 1084px)">
-                            <source srcset="https://placehold.it/1083x609/585858/171717" media="(min-width:768px)">
-                            <source srcset="https://placehold.it/767x431/585858/171717" media="(min-width:540px)">
-                            <source srcset="https://placehold.it/539x303/585858/171717" media="(min-width:0)">
-                            <img srcset="https://placehold.it/1259x472/585858/171717" src="https://placehold.it/1259x472/585858/171717" alt="Placeholder with grey background">
-                        </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">Heading</h1>
-                                <p class="c-paragraph">Paragraph fusce vel feugiat libero. Quisque eu est in dui facilisis faucibus. Donec tincidunt eget felis ac semper. In egestas nunc id tellus pellentesque, vel ullamcorper ex dictum. Vivamus a tempor arcu, et laoreet sem. Mauris
-                                    ac aliquam dui. Curabitur bibendum, nisi sed gravida gravida, sapien nisl sollicitudin sem, sed blandit quam arcu eleifend dolor. Maecenas tristique nibh ullamcorper ante pellentesque faucibus. Cras non nulla vitae urna
-                                    porttitor sagittis. Cras vitae pretium dolor.</p>
-                                <div class="c-logo">
-                                    <img itemprop="logo" class="c-image" src="https://placehold.it/350x40" alt="Placeholder with grey background" itemscope="" itemtype="https://schema.org/ImageObject">
-                                    <span>Logo</span>
-                                </div>
-                                <div>
-                                    <a href="#" class="c-call-to-action c-glyph">
-                                        <span>Call To Action</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </li>
-            </ul>
-        </div>
-    </div>
+                            <figcaption class="c-caption-2">A carousel showing a series of heroes with varying themes</figcaption></section>
+                                            </div>
 
+    
   </body>
   <script async="async" src="https://assets.onestore.ms/cdnfiles/external/mwf/short/v1/latest/scripts/mwf-auto-init-main.var.min.js"></script>
-  <script>if(require(["jqReady!","window","document","location","deferExec!"],function(){window.location.host.indexOf("businessstore.microsoft.com")!=-1&&msCommonShell&&(msCommonShell.as={callback:function(){}})}),window.location.host.indexOf("businessstore.microsoft.com")!=-1){var p=document.createElement("nav");x=document.getElementById("headerUniversalHeader");x.insertBefore(p,x.firstChild);p.outerHTML="<nav id=uhf-g-nav><\/nav>"}require(["jqReady!","deferExec!"],function(n){n("[data-ocms-id] .m-content-placement section a, [data-ocms-id] .m-content-placement section").removeAttr("data-js-href").removeAttr("href").bind("mouseup click mousedown",function(n){n.stopImmediatePropagation();n.preventDefault()})});require(["jqReady!","deferExec!"],function(n){n("[data-ocms-id] .m-hyperlink-group-content-placement section a, [data-ocms-id] .m-hyperlink-group-content-placement section").removeAttr("data-js-href").removeAttr("href").bind("mouseup click mousedown",function(n){n.stopImmediatePropagation();n.preventDefault()})});location.href.toLowerCase().indexOf("collections/blackfridaybrowsealldeals")>0&&require(["jqReady!","deferExec!"],function(n){n("source,img",n(".m-product-placement-item:not(.context-movie)").removeClass("contex-app,context-game").addClass("context-movie")).each(function(){var t=n(this),r=t.is("img")?"src":"srcset",u="data-"+r,i=t.attr(u);i&&(i=i.replace("&h=170","&h=124"),t.attr(u,i),t.is(".lazyloaded")&&t.attr(r,i))})});require(["jqReady!"],function(n){if(document.body.className.indexOf("s_swiftkey")>0){var t=document.documentElement.lang;if(["ar-eg","pt-br","tr-tr","se-se","es-es","de-de"].indexOf(t)!=-1)return;n('body.s_swiftkey .c-call-to-action[aria-label="download_app"]').html('<img src="http://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2dKBu" alt="Download on the app store" height=50>').attr("class","margin-bottom-10").attr("style","display:block");n('body.s_swiftkey .c-call-to-action[aria-label="download_play"]').html('<img src="http://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2dCNN" alt="Get it on google play" height=50>').attr("class","margin-bottom-10").attr("style","display:block")}});require(["jqReady!"],function(n){document.body.className.indexOf("s_microsoftpix")>0&&n('body.s_microsoftpix .c-call-to-action[aria-label="download_app"]').html('<img src="https://swiftkey.com/images/misc/stores/app/en.png" alt="Download on the app store" height=50>').attr("class","margin-bottom-10").attr("style","display:block")});require(["selectMenu","htmlExtensions"],function(n,t){n.SelectMenu.prototype.setSelectedItem=function(n){if(!n||!this.element)return!1;var i=t.selectFirstElement('li[id="'+n+'"] > a',this.element)||t.selectFirstElement('li[id="'+n+'"] > span',this.element);return i?this.onItemSelected(i,!1,!1):!1}});require(["jqReady!"],function(n){document.body.className.indexOf("s_hololens")>0&&n("#content-links").children().eq(1).attr("ID","hololens-addtocard")});require(["jqReady!"],function(n){n(".s_airband .m-content-placement .m-content-placement-item, .s_airband .m-hero .m-hero-item, .s_ai .m-multi-hero .m-multi-hero-item").each(function(){var t=n(this).find("a.c-call-to-action").first();if(t.length>0&&t[0].hasAttribute("data-js-dialog-show")){n(this).css("cursor","pointer");t.on("click",function(n){n.stopPropagation()});n(this).on("click",function(){t[0].click()});n(this).on("mousedown",function(){t[0].mousedown()})}})});location.href.toLowerCase().indexOf("rushmore")>0&&require(["jqReady!","deferExec!"],function(n){n("#headerRegion").find(".c-logo").attr("href","/en-us/rushmore/store");n("#cli_shellHeaderSearchInput").attr("placeholder","Search Microsoft Store");n("#border-generated-select-menu-trigger").text(n("#border-generated-select-menu-trigger ~ul li:first span p").html())})</script>
 </html>
